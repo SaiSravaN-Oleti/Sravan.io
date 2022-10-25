@@ -24,6 +24,7 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #fff4e6;
   color: #343a40;
+  border-bottom: 8px solid #d9480f;
 }
 
 .container {
@@ -53,6 +54,31 @@ h2 {
   background-color: #d9480f;
   color: #fff4e6;
   text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #ffa94d;
+  color: #343a40;
+  font-weight: 700;
+}
+
+.btn--big {
+  padding: 16px 32px;
+  font-size: 18px;
+}
+
+.btn--small {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+footer {
+  color: #343a40;
+  text-align: center;
 }
 
 /* ------------------------ */
@@ -102,7 +128,10 @@ img {
 }
 
 /* TESTIMONIAL */
-.testimonial-section {}
+.testimonial-section {
+  background-color: #d9480f;
+  color: #fff;
+}
 
 .testimonial-box {
   grid-column: 2 / -1;
